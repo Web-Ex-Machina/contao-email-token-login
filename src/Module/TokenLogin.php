@@ -140,7 +140,7 @@ class TokenLogin extends AbstractFrontendModuleController
                         ]
                     )
                     ->setParameter(0, time())
-                    ->setParameter(1, strtotime('+2 hours'))
+                    ->setParameter(1, strtotime('+1 month'))
                     ->setParameter(2, $member->id)
                     ->setParameter(3, $token)
                     ->setParameter(4, $jumpTo)
